@@ -44,9 +44,11 @@ WHERE dept_name = 'Sales' OR dept_name = 'Development';
 SELECT last_name, COUNT(*)
 FROM employees
 GROUP BY last_name
+<<<<<<< HEAD
 ORDER BY COUNT(*) DESC;
 
 --It's February, tho...
 SELECT * 
 FROM employees
 WHERE emp_no = 499942;
+
